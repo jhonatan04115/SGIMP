@@ -4,9 +4,10 @@
 
 1. Instale o Python 3.x
 2. Instale as dependências:
-   ```
+
+```
 pip install -r requirements.txt
-   ```
+```
 
 ## Execução
 
@@ -17,13 +18,13 @@ python app/main.py
 ## Empacotamento para Windows (.exe)
 
 1. Instale o PyInstaller:
-   ```
+```
 pip install pyinstaller
-   ```
+```
 2. Gere o executável:
-   ```
+```
 pyinstaller --onefile app/main.py
-   ```
+```
 O executável estará na pasta `dist`.
 
 ## Estrutura do Projeto
@@ -43,3 +44,4 @@ O executável estará na pasta `dist`.
 
 ## Banco de Dados
 Utiliza SQLite. Scripts de criação estão em `/db`.
+
